@@ -128,3 +128,18 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+
+# Foundry build files
+lib/
+out/
+remappings.txt
+
+# Solidity debugger files
+*.sol.solcover
+
+# Environment variables
+.env
